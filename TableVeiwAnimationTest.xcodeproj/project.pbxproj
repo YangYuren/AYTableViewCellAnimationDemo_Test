@@ -1,0 +1,661 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13554646C90D4C1599D29D9B /* libPods-TableVeiwAnimationTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F79B61FEE4F80946FB0859DD /* libPods-TableVeiwAnimationTest.a */; };
+		EF1656DC1F735BFE00C746A1 /* UITableViewCell+AYAddAnimations.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1656DB1F735BFE00C746A1 /* UITableViewCell+AYAddAnimations.m */; };
+		EFB8FA351F735332007508FC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB8FA341F735332007508FC /* main.m */; };
+		EFB8FA381F735332007508FC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB8FA371F735332007508FC /* AppDelegate.m */; };
+		EFB8FA3B1F735332007508FC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB8FA3A1F735332007508FC /* ViewController.m */; };
+		EFB8FA3E1F735332007508FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFB8FA3C1F735332007508FC /* Main.storyboard */; };
+		EFB8FA401F735332007508FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFB8FA3F1F735332007508FC /* Assets.xcassets */; };
+		EFB8FA431F735332007508FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFB8FA411F735332007508FC /* LaunchScreen.storyboard */; };
+		EFB8FA4E1F735332007508FC /* TableVeiwAnimationTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB8FA4D1F735332007508FC /* TableVeiwAnimationTestTests.m */; };
+		EFB8FA591F735332007508FC /* TableVeiwAnimationTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB8FA581F735332007508FC /* TableVeiwAnimationTestUITests.m */; };
+		EFC19DD61F735D0800934ADE /* UITableView+AYAddAnimations.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC19DD51F735D0800934ADE /* UITableView+AYAddAnimations.m */; };
+		EFC19DD91F7360F000934ADE /* ay_TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC19DD81F7360F000934ADE /* ay_TestViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EFB8FA4A1F735332007508FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFB8FA281F735332007508FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFB8FA2F1F735332007508FC;
+			remoteInfo = TableVeiwAnimationTest;
+		};
+		EFB8FA551F735332007508FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFB8FA281F735332007508FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFB8FA2F1F735332007508FC;
+			remoteInfo = TableVeiwAnimationTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3E8FB6FF010346C94D61E7B2 /* Pods-TableVeiwAnimationTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TableVeiwAnimationTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-TableVeiwAnimationTest/Pods-TableVeiwAnimationTest.release.xcconfig"; sourceTree = "<group>"; };
+		AB5DC0ADD34267C0DD9D61B9 /* Pods-TableVeiwAnimationTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TableVeiwAnimationTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TableVeiwAnimationTest/Pods-TableVeiwAnimationTest.debug.xcconfig"; sourceTree = "<group>"; };
+		EF1656D91F735BA400C746A1 /* AYTableViewAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AYTableViewAnimation.h; sourceTree = "<group>"; };
+		EF1656DA1F735BFE00C746A1 /* UITableViewCell+AYAddAnimations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+AYAddAnimations.h"; sourceTree = "<group>"; };
+		EF1656DB1F735BFE00C746A1 /* UITableViewCell+AYAddAnimations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+AYAddAnimations.m"; sourceTree = "<group>"; };
+		EFB8FA301F735332007508FC /* TableVeiwAnimationTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableVeiwAnimationTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFB8FA341F735332007508FC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EFB8FA361F735332007508FC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EFB8FA371F735332007508FC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EFB8FA391F735332007508FC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EFB8FA3A1F735332007508FC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EFB8FA3D1F735332007508FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EFB8FA3F1F735332007508FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EFB8FA421F735332007508FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EFB8FA441F735332007508FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFB8FA491F735332007508FC /* TableVeiwAnimationTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableVeiwAnimationTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFB8FA4D1F735332007508FC /* TableVeiwAnimationTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableVeiwAnimationTestTests.m; sourceTree = "<group>"; };
+		EFB8FA4F1F735332007508FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFB8FA541F735332007508FC /* TableVeiwAnimationTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableVeiwAnimationTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFB8FA581F735332007508FC /* TableVeiwAnimationTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableVeiwAnimationTestUITests.m; sourceTree = "<group>"; };
+		EFB8FA5A1F735332007508FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFC19DD21F735C6A00934ADE /* AYTableViewAnimationsType.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AYTableViewAnimationsType.h; sourceTree = "<group>"; };
+		EFC19DD41F735D0800934ADE /* UITableView+AYAddAnimations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+AYAddAnimations.h"; sourceTree = "<group>"; };
+		EFC19DD51F735D0800934ADE /* UITableView+AYAddAnimations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+AYAddAnimations.m"; sourceTree = "<group>"; };
+		EFC19DD71F7360F000934ADE /* ay_TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ay_TestViewController.h; sourceTree = "<group>"; };
+		EFC19DD81F7360F000934ADE /* ay_TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ay_TestViewController.m; sourceTree = "<group>"; };
+		F79B61FEE4F80946FB0859DD /* libPods-TableVeiwAnimationTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TableVeiwAnimationTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EFB8FA2D1F735332007508FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13554646C90D4C1599D29D9B /* libPods-TableVeiwAnimationTest.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFB8FA461F735332007508FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFB8FA511F735332007508FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B524BAC9E14EF776AB094AA6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AB5DC0ADD34267C0DD9D61B9 /* Pods-TableVeiwAnimationTest.debug.xcconfig */,
+				3E8FB6FF010346C94D61E7B2 /* Pods-TableVeiwAnimationTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C4B5A169F235632BF691F933 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F79B61FEE4F80946FB0859DD /* libPods-TableVeiwAnimationTest.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EF1656DD1F735C0E00C746A1 /* AY */ = {
+			isa = PBXGroup;
+			children = (
+				EF1656D91F735BA400C746A1 /* AYTableViewAnimation.h */,
+				EFC19DD21F735C6A00934ADE /* AYTableViewAnimationsType.h */,
+				EF1656DA1F735BFE00C746A1 /* UITableViewCell+AYAddAnimations.h */,
+				EF1656DB1F735BFE00C746A1 /* UITableViewCell+AYAddAnimations.m */,
+				EFC19DD41F735D0800934ADE /* UITableView+AYAddAnimations.h */,
+				EFC19DD51F735D0800934ADE /* UITableView+AYAddAnimations.m */,
+			);
+			name = AY;
+			sourceTree = "<group>";
+		};
+		EFB8FA271F735332007508FC = {
+			isa = PBXGroup;
+			children = (
+				EFB8FA321F735332007508FC /* TableVeiwAnimationTest */,
+				EFB8FA4C1F735332007508FC /* TableVeiwAnimationTestTests */,
+				EFB8FA571F735332007508FC /* TableVeiwAnimationTestUITests */,
+				EFB8FA311F735332007508FC /* Products */,
+				B524BAC9E14EF776AB094AA6 /* Pods */,
+				C4B5A169F235632BF691F933 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EFB8FA311F735332007508FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFB8FA301F735332007508FC /* TableVeiwAnimationTest.app */,
+				EFB8FA491F735332007508FC /* TableVeiwAnimationTestTests.xctest */,
+				EFB8FA541F735332007508FC /* TableVeiwAnimationTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EFB8FA321F735332007508FC /* TableVeiwAnimationTest */ = {
+			isa = PBXGroup;
+			children = (
+				EFB8FA661F73533D007508FC /* Classes */,
+				EFB8FA361F735332007508FC /* AppDelegate.h */,
+				EFB8FA371F735332007508FC /* AppDelegate.m */,
+				EFB8FA391F735332007508FC /* ViewController.h */,
+				EFB8FA3A1F735332007508FC /* ViewController.m */,
+				EFC19DD71F7360F000934ADE /* ay_TestViewController.h */,
+				EFC19DD81F7360F000934ADE /* ay_TestViewController.m */,
+				EFB8FA3C1F735332007508FC /* Main.storyboard */,
+				EFB8FA3F1F735332007508FC /* Assets.xcassets */,
+				EFB8FA411F735332007508FC /* LaunchScreen.storyboard */,
+				EFB8FA441F735332007508FC /* Info.plist */,
+				EFB8FA331F735332007508FC /* Supporting Files */,
+			);
+			path = TableVeiwAnimationTest;
+			sourceTree = "<group>";
+		};
+		EFB8FA331F735332007508FC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EFB8FA341F735332007508FC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EFB8FA4C1F735332007508FC /* TableVeiwAnimationTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				EFB8FA4D1F735332007508FC /* TableVeiwAnimationTestTests.m */,
+				EFB8FA4F1F735332007508FC /* Info.plist */,
+			);
+			path = TableVeiwAnimationTestTests;
+			sourceTree = "<group>";
+		};
+		EFB8FA571F735332007508FC /* TableVeiwAnimationTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EFB8FA581F735332007508FC /* TableVeiwAnimationTestUITests.m */,
+				EFB8FA5A1F735332007508FC /* Info.plist */,
+			);
+			path = TableVeiwAnimationTestUITests;
+			sourceTree = "<group>";
+		};
+		EFB8FA661F73533D007508FC /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				EF1656DD1F735C0E00C746A1 /* AY */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EFB8FA2F1F735332007508FC /* TableVeiwAnimationTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFB8FA5D1F735332007508FC /* Build configuration list for PBXNativeTarget "TableVeiwAnimationTest" */;
+			buildPhases = (
+				D6697B2A9837D17EC818F681 /* [CP] Check Pods Manifest.lock */,
+				EFB8FA2C1F735332007508FC /* Sources */,
+				EFB8FA2D1F735332007508FC /* Frameworks */,
+				EFB8FA2E1F735332007508FC /* Resources */,
+				D4846465F44D5B8FBB474507 /* [CP] Embed Pods Frameworks */,
+				12E61FC75F557531B17DD7A3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TableVeiwAnimationTest;
+			productName = TableVeiwAnimationTest;
+			productReference = EFB8FA301F735332007508FC /* TableVeiwAnimationTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EFB8FA481F735332007508FC /* TableVeiwAnimationTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFB8FA601F735332007508FC /* Build configuration list for PBXNativeTarget "TableVeiwAnimationTestTests" */;
+			buildPhases = (
+				EFB8FA451F735332007508FC /* Sources */,
+				EFB8FA461F735332007508FC /* Frameworks */,
+				EFB8FA471F735332007508FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFB8FA4B1F735332007508FC /* PBXTargetDependency */,
+			);
+			name = TableVeiwAnimationTestTests;
+			productName = TableVeiwAnimationTestTests;
+			productReference = EFB8FA491F735332007508FC /* TableVeiwAnimationTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EFB8FA531F735332007508FC /* TableVeiwAnimationTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFB8FA631F735332007508FC /* Build configuration list for PBXNativeTarget "TableVeiwAnimationTestUITests" */;
+			buildPhases = (
+				EFB8FA501F735332007508FC /* Sources */,
+				EFB8FA511F735332007508FC /* Frameworks */,
+				EFB8FA521F735332007508FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFB8FA561F735332007508FC /* PBXTargetDependency */,
+			);
+			name = TableVeiwAnimationTestUITests;
+			productName = TableVeiwAnimationTestUITests;
+			productReference = EFB8FA541F735332007508FC /* TableVeiwAnimationTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EFB8FA281F735332007508FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Tucodec;
+				TargetAttributes = {
+					EFB8FA2F1F735332007508FC = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = J84PP8DUVK;
+						ProvisioningStyle = Automatic;
+					};
+					EFB8FA481F735332007508FC = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = J84PP8DUVK;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EFB8FA2F1F735332007508FC;
+					};
+					EFB8FA531F735332007508FC = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = J84PP8DUVK;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EFB8FA2F1F735332007508FC;
+					};
+				};
+			};
+			buildConfigurationList = EFB8FA2B1F735332007508FC /* Build configuration list for PBXProject "TableVeiwAnimationTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EFB8FA271F735332007508FC;
+			productRefGroup = EFB8FA311F735332007508FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFB8FA2F1F735332007508FC /* TableVeiwAnimationTest */,
+				EFB8FA481F735332007508FC /* TableVeiwAnimationTestTests */,
+				EFB8FA531F735332007508FC /* TableVeiwAnimationTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EFB8FA2E1F735332007508FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFB8FA431F735332007508FC /* LaunchScreen.storyboard in Resources */,
+				EFB8FA401F735332007508FC /* Assets.xcassets in Resources */,
+				EFB8FA3E1F735332007508FC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFB8FA471F735332007508FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFB8FA521F735332007508FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		12E61FC75F557531B17DD7A3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TableVeiwAnimationTest/Pods-TableVeiwAnimationTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D4846465F44D5B8FBB474507 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TableVeiwAnimationTest/Pods-TableVeiwAnimationTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D6697B2A9837D17EC818F681 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EFB8FA2C1F735332007508FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFC19DD91F7360F000934ADE /* ay_TestViewController.m in Sources */,
+				EFB8FA3B1F735332007508FC /* ViewController.m in Sources */,
+				EFB8FA381F735332007508FC /* AppDelegate.m in Sources */,
+				EFC19DD61F735D0800934ADE /* UITableView+AYAddAnimations.m in Sources */,
+				EF1656DC1F735BFE00C746A1 /* UITableViewCell+AYAddAnimations.m in Sources */,
+				EFB8FA351F735332007508FC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFB8FA451F735332007508FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFB8FA4E1F735332007508FC /* TableVeiwAnimationTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFB8FA501F735332007508FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFB8FA591F735332007508FC /* TableVeiwAnimationTestUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EFB8FA4B1F735332007508FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFB8FA2F1F735332007508FC /* TableVeiwAnimationTest */;
+			targetProxy = EFB8FA4A1F735332007508FC /* PBXContainerItemProxy */;
+		};
+		EFB8FA561F735332007508FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFB8FA2F1F735332007508FC /* TableVeiwAnimationTest */;
+			targetProxy = EFB8FA551F735332007508FC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EFB8FA3C1F735332007508FC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFB8FA3D1F735332007508FC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EFB8FA411F735332007508FC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFB8FA421F735332007508FC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EFB8FA5B1F735332007508FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EFB8FA5C1F735332007508FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EFB8FA5E1F735332007508FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB5DC0ADD34267C0DD9D61B9 /* Pods-TableVeiwAnimationTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = J84PP8DUVK;
+				INFOPLIST_FILE = TableVeiwAnimationTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TucodecA.TableVeiwAnimationTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EFB8FA5F1F735332007508FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E8FB6FF010346C94D61E7B2 /* Pods-TableVeiwAnimationTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = J84PP8DUVK;
+				INFOPLIST_FILE = TableVeiwAnimationTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TucodecA.TableVeiwAnimationTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EFB8FA611F735332007508FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = J84PP8DUVK;
+				INFOPLIST_FILE = TableVeiwAnimationTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TucodecA.TableVeiwAnimationTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TableVeiwAnimationTest.app/TableVeiwAnimationTest";
+			};
+			name = Debug;
+		};
+		EFB8FA621F735332007508FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = J84PP8DUVK;
+				INFOPLIST_FILE = TableVeiwAnimationTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TucodecA.TableVeiwAnimationTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TableVeiwAnimationTest.app/TableVeiwAnimationTest";
+			};
+			name = Release;
+		};
+		EFB8FA641F735332007508FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = J84PP8DUVK;
+				INFOPLIST_FILE = TableVeiwAnimationTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TucodecA.TableVeiwAnimationTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TableVeiwAnimationTest;
+			};
+			name = Debug;
+		};
+		EFB8FA651F735332007508FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = J84PP8DUVK;
+				INFOPLIST_FILE = TableVeiwAnimationTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TucodecA.TableVeiwAnimationTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TableVeiwAnimationTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EFB8FA2B1F735332007508FC /* Build configuration list for PBXProject "TableVeiwAnimationTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFB8FA5B1F735332007508FC /* Debug */,
+				EFB8FA5C1F735332007508FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFB8FA5D1F735332007508FC /* Build configuration list for PBXNativeTarget "TableVeiwAnimationTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFB8FA5E1F735332007508FC /* Debug */,
+				EFB8FA5F1F735332007508FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFB8FA601F735332007508FC /* Build configuration list for PBXNativeTarget "TableVeiwAnimationTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFB8FA611F735332007508FC /* Debug */,
+				EFB8FA621F735332007508FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFB8FA631F735332007508FC /* Build configuration list for PBXNativeTarget "TableVeiwAnimationTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFB8FA641F735332007508FC /* Debug */,
+				EFB8FA651F735332007508FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EFB8FA281F735332007508FC /* Project object */;
+}
